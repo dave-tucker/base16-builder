@@ -1,0 +1,45 @@
+---
+meta:
+  description: "Base 16 <%= @scheme %> by <%= @author %>"
+
+window_colors:
+  focused:
+    border:         '#<%= @base["06"]["hex"] %>'
+    background:     '#<%= @base["06"]["hex"] %>'
+    text:           '#<%= @base["02"]["hex"] %>'
+    indicator:      '#<%= @base["00"]["hex"] %>'
+  focused_inactive:
+    border:         '#<%= @base["05"]["hex"] %>'
+    background:     '#<%= @base["05"]["hex"] %>'
+    text:           '#<%= @base["03"]["hex"] %>'
+    indicator:      '#<%= @base["00"]["hex"] %>'
+  unfocused:
+    border:         '#<%= @base["04"]["hex"] %>'
+    background:     '#<%= @base["04"]["hex"] %>'
+    text:           '#<%= @base["03"]["hex"] %>'
+    indicator:      '#<%= @base["00"]["hex"] %>'
+  urgent:
+    border:         '#<%= @base["08"]["hex"] %>'
+    background:     '#<%= @base["08"]["hex"] %>'
+    text:           '#<%= @base["07"]["hex"] %>'
+    indicator:      '#<%= @base["07"]["hex"] %>'
+bar_colors:
+  separator:        '#<%= @base["00"]["hex"] %>'
+  background:       '#<%= @base["06"]["hex"] %>'
+  statusline:       '#<%= @base["03"]["hex"] %>'
+  focused_workspace:
+    border:         '#<%= @base["0D"]["hex"] %>'
+    background:     '#<%= @base["0C"]["hex"] %>'
+    text:           '#<%= @base["00"]["hex"] %>'
+  active_workspace:
+    border:         '#<%= @base["09"]["hex"] %>'
+    background:     '#<%= @base["0A"]["hex"] %>'
+    text:           '#<%= @base["01"]["hex"] %>'
+  inactive_workspace:
+    border:         '#<%= @base["09"]["hex"] %>'
+    background:     '#<%= @base["0A"]["hex"] %>'
+    text:           '#<%= @base["01"]["hex"] %>'
+  urgent_workspace:
+    border:         '#<%= @base["07"]["hex"] %>'
+    background:     '#<%= @base["08"]["hex"] %>'
+    text:           '#<%= @base["07"]["hex"] %>'
